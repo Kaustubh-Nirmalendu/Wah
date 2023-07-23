@@ -1,0 +1,92 @@
+body
+{
+    background-color: aliceblue;
+}
+#Circle1
+{
+    position: relative;
+    left: 1200px;
+    top: 80px;
+    height: 200px;
+    width: 200px;
+    background-color: cyan;
+    border-radius: 50%;
+    opacity: 0.1;
+}
+#Circle2
+{
+    position: relative;
+    left: 1250px;
+    top: 100px;
+    height: 400px;
+    width: 400px;
+    background-color: red;
+    border-radius: 50%;
+    opacity: 0.1;
+}
+#Circle3
+{
+    position: absolute;
+    left: 1300px;
+    top: 0;
+    height: 400px;
+    width: 400px;
+    background-color: green;
+    border-radius: 50%;
+    opacity: 0.2;
+}
+#LoginArea
+{
+    position: absolute;
+    background-color: gold;
+    width: 800px;
+    height: 600px;
+    top: 100px;
+    left: 450px;
+    opacity: 0.4;
+    border-radius: 20px;
+}
+#LoginText
+{
+    color: chocolate;
+    font-weight: 200;
+}
+#left
+{
+    float: left;
+    margin-right: 80px;
+    color: darkslategray;
+}
+#right
+{
+    float: right;
+    color: mintcream;
+}
+#right1
+{
+    float: right;
+    color: darkslategray;
+}
+#left1
+{
+    float: left;
+    margin-right: 80px;
+    color: mintcream;
+}
+.Mispelled
+{
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    color: red;
+}
+#Error
+{
+    color: black;
+    display: none;
+}
+.Exit
+{
+    size:inherit;
+    display: inline-blocks;
+    width: 200px;
+}
